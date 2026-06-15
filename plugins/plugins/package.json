@@ -1,0 +1,29 @@
+{
+  "name": "maisteo-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot - Multi-Device | By maisteo | جميع الحقوق محفوظة",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop maisteo-bot",
+    "pm2:restart": "pm2 restart maisteo-bot",
+    "pm2:logs": "pm2 logs maisteo-bot"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.7",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^8.17.2",
+    "express": "^4.18.2",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "moment-timezone": "^0.5.43",
+    "fs-extra": "^11.2.0",
+    "ytdl-core": "^4.11.5",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-fetch": "^3.3.2"
+  },
+  "keywords": ["whatsapp-bot", "baileys", "maisteo", "whatsapp-md"],
+  "author": "maisteo",
+  "license": "MIT"
+}
